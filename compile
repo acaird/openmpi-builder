@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /packages/openmpi-1.7.3
+./configure
+make
+tar -czf openmpi-1.7.3-bin.tar.gz openmpi-1.7.3
