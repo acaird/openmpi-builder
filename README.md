@@ -4,7 +4,7 @@ OpenMPI Builder
 Compile OpenMPI with ease using Docker
 -------------------------------------
 
-Our goal is to make compiling OpenMPI a breeze. Assuming that you have Docker installed, 
+Our goal is to make compiling OpenMPI a breeze. Assuming that you have Docker installed,
 just type the following into your terminal:
 
 ```bash
@@ -12,8 +12,8 @@ just type the following into your terminal:
     $ make binary
 ```
 
-You'll find the finished package under `packages`. 
-If you need to download Hadoop, just type `make download` first. 
+You'll find the finished package under `packages`.
+If you need to download OpenMPI, just type `make download` first.
 
 Docker
 ------
@@ -30,4 +30,4 @@ Ubuntu, just type the following into your terminal:
 
 Afterwards, type `docker info` to verify everything installed correctly. If you're
 not running Ubuntu, head over to the [Docker](https://www.docker.io) homepage
-for additional instructions. 
+for additional instructions.
